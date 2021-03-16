@@ -1,9 +1,5 @@
 package org.emp;
 
-import org.Company.Company;
-import org.client.Client;
-import org.project.Project;
-
 public class Employee {
 	public void empName() {
 		System.out.println("Employee Name:Ravi");
@@ -12,7 +8,7 @@ public class Employee {
 	public static void main(String[] args) {
 		Employee stat=new Employee();
 		stat.empName();
-		Company stat1=new Company();
+		Company1 stat1=new Company1();
 		stat1.companyName();
 		Client stat2=new Client();
 		stat2.clientName();

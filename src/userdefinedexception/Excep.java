@@ -1,10 +1,10 @@
 package userdefinedexception;
 
-public class Test extends Exception {
+public class Excep extends Exception {
 	@Override
 	public String getMessage() {
-		String c="mudiyala";
-		return c;
+		String s ="tha";
+		return s;
 	}
 
 }

@@ -16,20 +16,15 @@ public static void main(String[] args) {
 		ma.put("subash","jira");
 		
 		System.out.println(ma);
+		Collection<String> values = ma.values();
+		System.out.println(values);
+		Set<String> keySet = ma.keySet();
+		System.out.println(keySet);
 		
-		//get the key alone
-		Set<String> s=ma.keySet();
-		System.out.println(s);
-		
-		//get the value alone
-		Collection<String>s1=ma.values();
-		System.out.println(s1);
-		
-		//iterate the value
-		Set<Entry<String,String>>en=ma.entrySet();
-		
-		for(Entry<String,String>z:en) {
-			System.out.println(z);
+		Set<Entry<String, String>> entrySet = ma.entrySet();
+		for (Entry<String, String> entry : entrySet) {
+			System.out.println(entry.getKey());
+			System.out.println(entry.getValue());
 		}
 		
 		
